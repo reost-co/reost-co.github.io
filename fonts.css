@@ -1,0 +1,24 @@
+
+/* Fonts declaration for this application */
+
+@font-face{
+    font-family: reost;
+    src: url(fonts/reost.ttf);
+}
+
+@font-face{
+    font-family: quicksand;
+    src: url(fonts/quicksand.ttf);
+}
+
+@font-face{
+    font-family: figtree;
+    src: url(fonts/figtree.ttf);
+}
+
+@font-face{
+    font-family: maven;
+    src: url(fonts/maven.ttf);
+}
+
+/* That's it*/

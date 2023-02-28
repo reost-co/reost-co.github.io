@@ -1,0 +1,60 @@
+
+/* import external styles */
+
+@import url(fonts.css);
+
+@import url(controls.css);
+
+@import url(layouts.css);
+
+.margin {
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.megavalue {
+    font-family: Bahnschrift;
+    font-size: 150px;
+    font-style: italic;
+    font-weight: bolder;
+    color: yellow;
+}
+
+.bodycontent {
+    max-width: 1200px;
+}
+.logo {
+    box-shadow: none;
+}
+.profile {
+    border-radius: 50%;
+}
+hr {
+    box-shadow: 1px 1px 37px azure;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+body {
+    font-family: quicksand;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+
+    margin: 0px;
+    background-color: hsl(235, 24%, 17%);
+    color: aliceblue;
+}

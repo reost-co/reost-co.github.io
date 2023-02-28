@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg viewBox="-4 -6 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="8" y="14" width="18" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="4" y="10" width="8" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="10" y="6" width="14" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="10" y="22" width="14" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="4" y="18" width="16" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="14" y="10" width="14" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+  <g id="Layer_1" transform="translate(-4, -6)" style="enable-background:new 0 0 32 32">
+    <g id="Fog">
+      <rect x="22" y="18" width="6" height="2" rx="0" ry="0" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg viewBox="-8 -4 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Layer_1" transform="translate(-8, -4)" style="enable-background:new 0 0 32 32">
+    <g id="PhoneAndroid">
+      <path d="M22, 4L10, 4C8.9, 4 8, 4.9 8, 6L8, 26C8, 27.1 8.9, 28 10, 28L22, 28C23.1, 28 24, 27.1 24, 26L24, 6C24, 4.9 23.1, 4 22, 4zM18, 26L14, 26L14, 24L18, 24L18, 26zM22, 22L10, 22L10, 8L22, 8L22, 22z" fill="#FFFFFF" class="White" />
+    </g>
+  </g>
+</svg>

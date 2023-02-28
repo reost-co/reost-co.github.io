@@ -1,0 +1,101 @@
+
+button {
+    font-family: quicksand;
+    font-size: 24px;
+    background: hsl(235,95%,61%);
+    color: azure;
+    border-width: 0px;
+    min-width: 170px;
+    /*border-style: dashed;*/
+    border-radius: 7px;
+    border-color: darkslateblue;
+    padding: 15px;
+    transition: background 0.9s;
+}
+
+button:hover {
+    background: aliceblue;
+    color: hsl(235,95%,61%);
+    box-shadow: 0px 0px 24px azure;
+}
+
+a {
+    color: hsl(151,100%,50%);
+    text-decoration: wavy;
+}
+
+img {
+    border-radius: 7px;
+    box-shadow: 0px 0px 24px wheat;
+}
+
+input {
+    background: hsl(150,100%, 5%);
+    color: wheat;
+    border-width: 0px;/*
+    /*border-color: hsl(235,95%,64%);
+    border-radius: 7px;*/
+    font-family: figtree;
+    font-size: 21px;
+    padding: 15px;
+    width: 85%;
+    transition: background 1s;
+}
+
+input:focus {
+    /*background: linear-gradient(to right, hsl(185,100%, 5%), hsl(1,100%, 5%), hsl(255,100%, 5%));*/
+    background: hsl(255,100%, 5%);
+    /*border-color: transparent;*/
+}
+
+select {
+    background: hsl(150,100%, 5%);
+    color: wheat;
+    border-width: 0px;/*
+    /*border-color: hsl(235,95%,64%);
+    border-radius: 7px;*/
+    font-family: figtree;
+    font-size: 21px;
+    padding: 15px;
+    width: 85%;
+    transition: background 1s;
+}
+
+select:focus {
+    /*background: linear-gradient(to right, hsl(185,100%, 5%), hsl(1,100%, 5%), hsl(255,100%, 5%));*/
+    background: hsl(255,100%, 5%);
+    /*border-color: transparent;*/
+}
+
+textarea {
+    background: hsl(150,100%, 5%);
+    color: wheat;
+    border-width: 0px;
+    border-color: hsl(235,95%,64%);;
+    border-radius: 7px;
+    font-family: figtree;
+    font-size: 21px;
+    padding: 15px;
+    width: 85%;
+    transition: background 1s;
+}
+
+textarea:focus {
+    /*background: linear-gradient(to right, hsl(185,100%, 5%), hsl(1,100%, 5%), hsl(255,100%, 5%));*/
+    background: hsl(255,100%, 5%);
+    /*border-color: transparent;*/
+}
+
+form {
+    max-width: 700px;
+}
+
+.progbar {
+    background: hsl(150,7%,21%);
+    min-height: 25px;
+    box-shadow: 0px 0px 3px azure;
+}
+
+.progbar .itemio {
+    background: linear-gradient(to right, hsl(255,100%,50%), hsl(85,100%,40%), hsl(150,100%,50%));
+}
