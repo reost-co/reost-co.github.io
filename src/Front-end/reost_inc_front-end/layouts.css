@@ -1,0 +1,477 @@
+
+/* Layout */
+
+.topblack {
+    background: hsl(255, 40%,12%);
+    margin: 0px;
+}
+
+.navigation {
+    background: hsl(240, 95%, 61%);
+    position: sticky;
+    color: aliceblue;
+    top: 0px;
+    z-index: 1;
+}
+
+.navigation a {
+    color: aliceblue;
+}
+
+.innernavigation {
+    float:right;
+}
+.innernavigation img {
+    box-shadow: 0px 0px 24px azure;
+}
+
+.navitem {
+    font-size: 23px;
+    border-radius: 7px 7px 7px 7px;
+    border-width: 0px;
+    transition: background 0.9s;
+}
+.navitem:hover {
+    background: azure;
+    color: slategrey;
+    box-shadow: 0px 0px 24px azure;
+}
+
+.reof {
+    font-family: reost;
+    font-size: 31px;
+}
+
+.navigation_content {
+    background: linear-gradient(to right,hsl(240, 95%, 61%),hsl(235, 51%, 12%));
+    color: aliceblue;
+    font-family: reost;
+    padding: 18px;
+    opacity: 0.98;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.navigation_content a {
+    padding: 14px;
+    background: aliceblue;
+    color: hsl(235, 24%, 17%);
+    border-radius: 12px;
+    transition: background 0.9s;
+}
+.navigation_content a:hover {
+    background: hsl(235, 24%, 17%);
+    color: aliceblue;
+    box-shadow: 0px 0px 24px azure;
+}
+
+.navigation_content .head {
+    font-weight: bolder;
+    font-size: 35px;
+}
+.navigation_content .slogun {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/*
+Navigation content 2
+*/
+.navigation_content2 {
+    background: /*linear-gradient(to right,hsl(240, 55%, 17%),hsl(191, 55%, 5%));*/hsl(240, 55%, 17%);
+    color: aliceblue;
+    font-family: reost;
+    padding: 18px;
+    opacity: 0.98;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.navigation_content2 a {
+    padding: 14px;
+    background: aliceblue;
+    color: hsl(235, 24%, 17%);
+    border-radius: 12px;
+    transition: background 0.9s;
+}
+.navigation_content2 a:hover {
+    background: hsl(235, 24%, 17%);
+    color: aliceblue;
+    box-shadow: 0px 0px 24px azure;
+}
+
+.navigation_content2 .head {
+    font-weight: bolder;
+    font-size: 35px;
+}
+.navigation_content2 .slogun {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.nav_conti {
+    background-image: url(images/nav_cont.svg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+/*Drop down*/
+
+.drop {
+    position: relative;
+    display: inline;
+}
+
+.drop .content {
+    position: absolute;
+    display: none;
+}
+
+.drop:hover .content {
+    display: block;
+}
+
+/*Main Menu*/
+
+.main_menu {
+    width: 90%;
+    height: 100%;
+    top: 0px;
+    left: 10%;
+    float: right;
+    position: fixed;
+    transition: display 1s;
+    z-index: 1;
+
+    display: none;
+    background: linear-gradient(to left,hsl(240, 95%, 61%),hsl(240, 15%, 21%));
+    border-radius: 24px 0px 0px 24px;
+}
+
+.main_menu_table {
+    width: 100%;
+    border-width: 5px;
+    border-color: hsl(240, 95%, 61%);
+    border-radius: 24px 0px 0px 24px;
+    box-shadow: 1px 0px 24px yellow;
+    color: aliceblue;
+}
+
+.main_menu_table a {
+    color: aliceblue;
+}
+
+.main_menu_table img {
+    box-shadow: 0px 0px 24px azure;
+}
+
+.maintd {
+    border-radius: 24px 0px 0px 24px;
+}
+
+/*Loader*/
+.loader {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    position: fixed;
+    background: hsl(235, 24%, 17%);
+}
+
+.loader img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+/* Poster LayOut */
+.poster {
+    padding: 5px;
+    background: linear-gradient(to right,hsl(5, 10%, 18%),hsl(240, 20%, 21%));
+    border-radius: 24px 0px 48px 24px;
+    border-color: hsl(200, 10%, 21%);
+    width: 100%;
+    /*box-shadow: 3px 0px 17px lightgrey;*/
+    border-color: transparent;
+    border-left-width: 7px;
+    border-left-color: hsl(5,85%,50%);
+}
+
+.poster td {
+    border-radius: 24px;
+}
+
+.poster .left {
+    float: left;
+    padding: 12px;
+    max-width: 350px;
+}
+
+.poster .right {
+    float: left;
+    padding: 12px;
+    max-width: 641px;
+}
+
+.poster a {
+    padding: 17px;
+    background: hsl(17, 95%, 43%);;
+    color: aliceblue;
+    border-radius: 12px;
+    transition: background 0.9s;
+}
+.poster a:hover {
+    background: wheat;
+    color: hsl(235, 24%, 17%);
+    box-shadow: 0px 0px 24px azure;
+}
+
+.poster img {
+    box-shadow: none;
+}
+
+.poster2 {
+    padding: 5px;
+    background: linear-gradient(to left,hsl(121, 10%, 18%),hsl(240, 20%, 21%));
+    border-radius: 24px 0px 48px 24px;
+    border-color: hsl(200, 10%, 21%);
+    width: 100%;
+    /*box-shadow: 3px 0px 17px lightgrey;*/
+    border-color: transparent;
+    border-right-width: 7px;
+    border-right-color: hsl(121, 95%, 50%);
+}
+
+.poster2 td {
+    border-radius: 24px;
+}
+
+.poster2 .left {
+    float: left;
+    padding: 12px;
+    max-width: 350px;
+}
+
+.poster2 .right {
+    float: left;
+    padding: 12px;
+    max-width: 641px;
+}
+
+.poster2 a {
+    padding: 17px;
+    background: hsl(161, 100%, 30%);;
+    color: aliceblue;
+    border-radius: 12px;
+    transition: background 0.9s;
+}
+.poster2 a:hover {
+    background: wheat;
+    color: hsl(235, 24%, 17%);
+    box-shadow: 0px 0px 24px azure;
+}
+
+.poster2 img {
+    box-shadow: none;
+}
+
+/* Value LayOut */
+.value {
+    font-family: figtree;
+    padding: 5px;
+    background: hsl(235, 40%, 21%);
+    border-radius: 24px 0px 0px 24px;
+    border-color: transparent;
+    width: 100%;
+    box-shadow: 3px 3px 17px plum;
+    border-left-width: 7px;
+    border-left-color: deeppink;
+}
+
+.value td {
+    border-radius: 24px;
+}
+
+.value .left {
+    float: left;
+    padding: 12px;
+    max-width: 350px;
+}
+
+.value .right {
+    float: left;
+    padding: 12px;
+    max-width: 641px;
+}
+
+.value2 {
+    font-family: figtree;
+    padding: 5px;
+    background: hsl(235, 40%, 21%);
+    border-radius: 24px 0px 0px 24px;
+    border-color: transparent;
+    width: 100%;
+    box-shadow: 3px 3px 17px aliceblue;
+    border-right-width: 7px;
+    border-right-color: deepskyblue;
+}
+
+.value2 td {
+    border-radius: 24px;
+}
+
+.value2 .left {
+    float: left;
+    padding: 12px;
+    max-width: 350px;
+}
+
+.value2 .right {
+    float: left;
+    padding: 12px;
+    max-width: 641px;
+}
+
+/* Before Footer */
+
+.bfooter {
+    font-family: maven;
+    font-size: 28px;
+    color: hsl(121, 95%, 20%);
+    background-image: url(images/reengineer.svg);
+    background-position: right;
+    background-size: 320px;
+    background-color: hsl(217, 5%, 71%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+    padding: 21px;
+}
+
+/* footer */
+
+.footer {
+    font-family: maven;
+    font-size: 24px;
+    color: azure;
+    background : hsl(217, 100%, 5%);
+    width: 100%;
+    border-radius: 12px;
+    background-image: url(images/dataengineering.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 240px;
+}
+
+.footer table {
+    min-width: 345px;
+    background : hsl(217, 100%, 5%);
+    float: left;
+}
+
+.footer a {
+    padding: 8px;
+    background: hsl(217, 100%, 5%);;
+    color: azure;
+    border-radius: 3px;
+    outline-style: dotted;
+    outline-width: 0px;
+    outline-color: azure;
+    box-shadow: 0px 0px 1px azure;
+    transition: background 0.9s;
+}
+
+.footer a:hover {
+    background: azure;
+    color: hsl(217, 100%, 5%);
+    box-shadow: 0px 0px 24px azure;
+}
+
+.footer img {
+    box-shadow: none;
+}
+
+.question {
+    padding: 5px;
+    border-color: transparent;
+    border-top-width: 5px;
+    border-top-color: orangered;
+    border-left-width: 2px;
+    border-left-color: orangered;
+    border-radius: 0px 0px 14px 14px;
+    width: 85%;
+}
+
+.question .qt {
+    background: linear-gradient(to right, hsl(187,80%,21%),hsl(12,80%,21%));
+    border-color: transparent;
+}
+
+.question .ans {
+    /*background: hsl(123,15%,81%);
+    color: hsl(123,40%,12%);*/
+    color : azure;
+    border-color: transparent;
+}
+
+.alert {
+    top : 85%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    background: hsl(255, 100%, 7%);
+    display: none;
+    padding-top: 17px;
+    z-index: 2;
+}
+
+.popup {
+    top : 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: hsl(255, 12%, 18%);
+    display: none;
+    z-index: 2;
+    overflow-y: scroll;
+}
+
+.popup .container {
+    width: 90%;
+    height: 90%;
+}
+
+.project {
+    background : hsl(255, 12%, 18%);
+    min-height: 350px;
+    border-radius: 5px;
+    padding: 12px;
+}
+.item {
+    background : hsl(255, 12%, 29%);
+    border-radius: 5px;
+}
+.item:hover {
+    background : hsl(255, 21%, 13%);
+    border-radius: 8px;
+}
+
+.milistone {
+    background : hsl(255, 21%, 13%)
+}
+.milistone .title {
+    background: hsl(255, 21%, 21%);
+}
