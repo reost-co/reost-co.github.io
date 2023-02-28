@@ -4,7 +4,7 @@
 /* Some elements to be put on top while sealing and compiling react components */
 //console.log("Hello Reost!");
 //Backend URL
-var backendUrl = "http://127.0.0.1:8080/Reost_Inc_Backend-1.0.1/";
+var backendUrl = "http://54.250.12.240:8080/Reost_Inc_Backend-1.0.1/";
 
 var showMobileMenu = () => {
   console.log('Showing Menu'); //jQuery(".main_menu").css("display","block");
