@@ -179,7 +179,7 @@ var loadFaq = () => {
     text: "Find answers to your burning questions"
   })); //fetch faq from server
 
-  fetch(backendUrl + "faq", {
+  fetch(backendUrl + "faq/", {
     method: "get"
   }).then(response => response.json()).then(response => {
     //Load faq content
