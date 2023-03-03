@@ -1,4 +1,4 @@
-//Fri Mar 03 2023 09:07:18 GMT+0300 (East Africa Time)
+//Fri Mar 03 2023 19:42:59 GMT+0300 (East Africa Time)
 //Including top file
 
 /* Some elements to be put on top while sealing and compiling react components */
@@ -274,7 +274,7 @@ var AboutContent = () => {
     height: "230",
     alt: "Silas"
   }), " ", /*#__PURE__*/React.createElement("p", null), "Senior Software Engineer ", "&", " Tech Lead"), /*#__PURE__*/React.createElement("p", null, "If you have further inquiries about us and our services, please reach out to us ", /*#__PURE__*/React.createElement("a", {
-    href: "contact.html",
+    href: "http://reost.herokuapp.com/contact.html",
     target: "_self"
   }, "here"), "."));
 }; //Reading and adding about.jsxhas suceeded
@@ -916,7 +916,7 @@ var FaqContent = props => {
     question: item,
     key: index
   })), /*#__PURE__*/React.createElement("p", null, "If you have any other inquiries, please contact us ", /*#__PURE__*/React.createElement("a", {
-    href: "contact.html",
+    href: "http://reost.herokuapp.com/contact.html",
     target: "_self"
   }, "here")));
 }; //Reading and adding faq.jsxhas suceeded
@@ -1289,7 +1289,7 @@ var ServicesContent = () => {
     height: "250",
     alt: "Scoasoft"
   }), /*#__PURE__*/React.createElement("p", null), "This services has been developed to help primary schools and stationeries, in storing, processing, and presenting school performance data. Easily generate professional report cards, marklists, statistics, and more in one place, on PC or Mobile. ", /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("a", {
-    href: "Scoasoft",
+    href: "scoasoft.html",
     target: "_blank"
   }, /*#__PURE__*/React.createElement("button", null, "Go to Scoasoft service")), /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("big", null, /*#__PURE__*/React.createElement("u", null, "Salesoft")), " ", /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("img", {
     src: "images/sales.svg",
@@ -1298,7 +1298,7 @@ var ServicesContent = () => {
     height: "250",
     alt: "Scoasoft"
   }), /*#__PURE__*/React.createElement("p", null), "Manage your business sales with ease. This data services stores, calculates, and generates business reports effectively. Your sales book, calculator, manager, and much more at the confort of your PC or Mobile. ", /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("a", {
-    href: "Salesoft",
+    href: "salesoft.html",
     target: "_blank"
   }, /*#__PURE__*/React.createElement("button", null, "Go to Salesoft service")), /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("hr", null), "We are developing and adding more services on our platform, keep checking this page for latest updates. ", /*#__PURE__*/React.createElement("p", null), "You can also request a service by writing to us at : reost.co@gmail.com. ", /*#__PURE__*/React.createElement("p", null));
 }; //Reading and adding services.jsxhas suceeded
@@ -1894,7 +1894,7 @@ var Footer = () => {
     href: "about.html",
     target: "_self"
   }, "About Us")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "contact.html",
+    href: "http://reost.herokuapp.com/contact.html",
     target: "_self"
   }, "Contact Us")), /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
     href: "terms.html",

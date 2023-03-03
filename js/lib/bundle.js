@@ -1,5 +1,5 @@
 
-//Fri Mar 03 2023 09:07:18 GMT+0300 (East Africa Time)
+//Fri Mar 03 2023 19:42:59 GMT+0300 (East Africa Time)
 
 
 //Including top file
@@ -317,7 +317,7 @@ var AboutContent = () => {
 
             <p>
                 If you have further inquiries about us and our services, please reach out 
-                to us <a href="contact.html" target={"_self"}>here</a>.
+                to us <a href="http://reost.herokuapp.com/contact.html" target={"_self"}>here</a>.
             </p>
 
         </div>
@@ -997,7 +997,7 @@ var FaqContent = (props) => {
             {props.data.map((item,index) => <Question question={item} key={index} />)}
 
             <p>If you have any other inquiries, please contact 
-                us <a href="contact.html" target={"_self"}>here</a>
+                us <a href="http://reost.herokuapp.com/contact.html" target={"_self"}>here</a>
             </p>
         </div>
     );
@@ -1391,7 +1391,7 @@ var ServicesContent = () => {
             This services has been developed to help primary schools and stationeries, in storing, 
             processing, and presenting school performance data. Easily generate professional
             report cards, marklists, statistics, and more in one place, on PC or Mobile. <p/>
-            <a href="Scoasoft" target={"_blank"}>
+            <a href="scoasoft.html" target={"_blank"}>
                 <button>
                     Go to Scoasoft service
                 </button>
@@ -1403,7 +1403,7 @@ var ServicesContent = () => {
             Manage your business sales with ease. This data services stores, calculates, and generates 
             business reports effectively. Your sales book, calculator, manager, and much more 
             at the confort of your PC or Mobile. <p/>
-            <a href="Salesoft" target={"_blank"}>
+            <a href="salesoft.html" target={"_blank"}>
                 <button>
                     Go to Salesoft service
                 </button>
@@ -2062,7 +2062,7 @@ var Footer = () => {
                             <a href="about.html" target={"_self"}>About Us</a>
                         </p>
                         <p>
-                            <a href="contact.html" target={"_self"}>Contact Us</a>
+                            <a href="http://reost.herokuapp.com/contact.html" target={"_self"}>Contact Us</a>
                         </p><p/>
                         <p>
                             <a href="terms.html" target={"_self"}>Terms of service</a>
