@@ -1,10 +1,10 @@
-//Wed Mar 01 2023 00:03:55 GMT+0300 (East Africa Time)
+//Fri Mar 03 2023 09:07:18 GMT+0300 (East Africa Time)
 //Including top file
 
 /* Some elements to be put on top while sealing and compiling react components */
 //console.log("Hello Reost!");
 //Backend URL
-var backendUrl = "http://54.250.12.240:8080/Reost_Inc_Backend-1.0.1/";
+var backendUrl = "http://127.0.0.1:8080/Reost_Inc_Backend-1.0.1/";
 
 var showMobileMenu = () => {
   console.log('Showing Menu'); //jQuery(".main_menu").css("display","block");
@@ -30,7 +30,7 @@ var loadHome = () => {
     head: "Welcome to Reost",
     slogun: "Access Of No Distance",
     content: "Build and manage systems effectively in a fully remote environment with us",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Get started"
   }; //Load navigation content
 
@@ -57,7 +57,7 @@ var loadAbout = () => {
     head: "About us",
     slogun: "This is who we are",
     content: "A remote based, modern technology, engineering company",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -84,7 +84,7 @@ var loadTerms = () => {
     head: "Terms of service",
     slogun: "",
     content: "These are our considerations while delivering service",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -111,7 +111,7 @@ var loadServices = () => {
     head: "Services",
     slogun: "Explore",
     content: "Find target oriented services, freely available",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -138,7 +138,7 @@ var loadContact = () => {
     head: "Contact",
     slogun: "",
     content: "Reachout, Let us talk about it.",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -165,7 +165,7 @@ var loadFaq = () => {
     head: "FAQ",
     slogun: "",
     content: "Frequently Asked Questions",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -179,7 +179,7 @@ var loadFaq = () => {
     text: "Find answers to your burning questions"
   })); //fetch faq from server
 
-  fetch(backendUrl + "faq/", {
+  fetch(backendUrl + "faq", {
     method: "get"
   }).then(response => response.json()).then(response => {
     //Load faq content
@@ -204,7 +204,7 @@ var loadDashboard = () => {
     head: "Hey ",
     slogun: "welcome",
     content: "This is where it all happens",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Account"
   }; //Load navigation content
 
@@ -231,7 +231,7 @@ var loadSignin = () => {
     head: "Signin",
     slogun: "",
     content: "Log into your dashboard",
-    link: "dashboard.html",
+    link: "https://reost.herokuapp.com/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -1077,7 +1077,7 @@ var InnerNav = () => {
     img_src: "images/home.svg",
     title: "Home"
   }))), /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("a", {
-    href: "dashboard.html",
+    href: "https://reost.herokuapp.com/dashboard.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/dashboard.svg",
@@ -1095,7 +1095,7 @@ var InnerNav = () => {
     img_src: "images/about.svg",
     title: "About"
   }))), /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("a", {
-    href: "faq.html",
+    href: "https://reost.herokuapp.com/faq.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/faq.svg",
@@ -1152,7 +1152,7 @@ var MobileMainMenu = () => {
     className: "navitem",
     width: "80%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "dashboard.html",
+    href: "https://reost.herokuapp.com/dashboard.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/dashboard.svg",
@@ -1191,7 +1191,7 @@ var MobileMainMenu = () => {
     className: "navitem",
     width: "80%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "faq.html",
+    href: "https://reost.herokuapp.com/faq.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/faq.svg",
@@ -1727,7 +1727,7 @@ var PosterLR = props => {
   }, props.data.description)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     width: "100%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "dashboard.html",
+    href: "https://reost.herokuapp.com/dashboard.html",
     target: "_self"
   }, "Start now!"))))))));
 };
@@ -1756,7 +1756,7 @@ var PosterRL = props => {
   }, props.data.description)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     width: "100%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "dashboard.html",
+    href: "https://reost.herokuapp.com/dashboard.html",
     target: "_self"
   }, "Start now!")))), /*#__PURE__*/React.createElement("table", {
     border: "0",
@@ -1888,7 +1888,7 @@ var Footer = () => {
     href: "services.html",
     target: "_self"
   }, "Services")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "dashboard.html",
+    href: "https://reost.herokuapp.com/dashboard.html",
     target: "_self"
   }, "Dashboard")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
     href: "about.html",
@@ -1900,7 +1900,7 @@ var Footer = () => {
     href: "terms.html",
     target: "_self"
   }, "Terms of service")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "faq.html",
+    href: "https://reost.herokuapp.com/faq.html",
     target: "_self"
   }, "Faq")))))), "\xA9 Reost, Inc ", new Date().getFullYear(), ". All rights reserved.", /*#__PURE__*/React.createElement("p", null), "-");
 };

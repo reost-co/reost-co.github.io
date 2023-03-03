@@ -1,5 +1,5 @@
 
-//Wed Mar 01 2023 00:03:55 GMT+0300 (East Africa Time)
+//Fri Mar 03 2023 09:07:18 GMT+0300 (East Africa Time)
 
 
 //Including top file
@@ -38,7 +38,7 @@ var loadHome = () => {
         head : "Welcome to Reost",
         slogun : "Access Of No Distance",
         content : "Build and manage systems effectively in a fully remote environment with us",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Get started"
     }
 
@@ -65,7 +65,7 @@ var loadAbout = () => {
         head : "About us",
         slogun : "This is who we are",
         content : "A remote based, modern technology, engineering company",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -93,7 +93,7 @@ var loadTerms = () => {
         head : "Terms of service",
         slogun : "",
         content : "These are our considerations while delivering service",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -121,7 +121,7 @@ var loadServices = () => {
         head : "Services",
         slogun : "Explore",
         content : "Find target oriented services, freely available",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -149,7 +149,7 @@ var loadContact = () => {
         head : "Contact",
         slogun : "",
         content : "Reachout, Let us talk about it.",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -176,7 +176,7 @@ var loadFaq = () => {
         head : "FAQ",
         slogun : "",
         content : "Frequently Asked Questions",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -217,7 +217,7 @@ var loadDashboard = () => {
         head : "Hey ",
         slogun : "welcome",
         content : "This is where it all happens",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Account"
     }
 
@@ -244,7 +244,7 @@ var loadSignin = () => {
         head : "Signin",
         slogun : "",
         content : "Log into your dashboard",
-        link : "dashboard.html",
+        link : "https://reost.herokuapp.com/dashboard.html",
         link_text : "Dashboard"
     }
 
@@ -1190,7 +1190,7 @@ var InnerNav = () => {
                     </a>
                 </td>
                 <td>
-                    <a href="dashboard.html" target={"_self"}>
+                    <a href="https://reost.herokuapp.com/dashboard.html" target={"_self"}>
                         <NavItem img_src="images/dashboard.svg" title="Dashboard" />
                     </a>
                 </td>
@@ -1205,7 +1205,7 @@ var InnerNav = () => {
                     </a>
                 </td>
                 <td>
-                    <a href="faq.html" target={"_self"}>
+                    <a href="https://reost.herokuapp.com/faq.html" target={"_self"}>
                         <NavItem img_src="images/faq.svg" title="Faq" />
                     </a>
                 </td>
@@ -1250,7 +1250,7 @@ var MobileMainMenu = () => {
                             <tr>
                                 <td width={"8%"}></td>
                                 <td className="navitem" width={"80%"}>
-                                    <a href="dashboard.html" target={"_self"}>
+                                    <a href="https://reost.herokuapp.com/dashboard.html" target={"_self"}>
                                         <NavItem img_src="images/dashboard.svg" title="Dashboard" />
                                     </a>
                                 </td>
@@ -1277,7 +1277,7 @@ var MobileMainMenu = () => {
                             <tr>
                                 <td width={"8%"}></td>
                                 <td className="navitem" width={"80%"}>
-                                    <a href="faq.html" target={"_self"}>
+                                    <a href="https://reost.herokuapp.com/faq.html" target={"_self"}>
                                         <NavItem img_src="images/faq.svg" title="Faq" />
                                     </a>
                                 </td>
@@ -1889,7 +1889,7 @@ var PosterLR = (props) => {
                         </tr>
                         <tr>
                             <td width={"100%"}>
-                                <a href="dashboard.html" target={"_self"}>Start now!</a>
+                                <a href="https://reost.herokuapp.com/dashboard.html" target={"_self"}>Start now!</a>
                             </td>
                         </tr>
                     </table>
@@ -1920,7 +1920,7 @@ var PosterRL = (props) => {
                         </tr>
                         <tr>
                             <td width={"100%"}>
-                                <a href="dashboard.html" target={"_self"}>Start now!</a>
+                                <a href="https://reost.herokuapp.com/dashboard.html" target={"_self"}>Start now!</a>
                             </td>
                         </tr>
                     </table>
@@ -2056,7 +2056,7 @@ var Footer = () => {
                             <a href="services.html" target={"_self"}>Services</a>
                         </p>
                         <p>
-                            <a href="dashboard.html" target={"_self"}>Dashboard</a>
+                            <a href="https://reost.herokuapp.com/dashboard.html" target={"_self"}>Dashboard</a>
                         </p>
                         <p>
                             <a href="about.html" target={"_self"}>About Us</a>
@@ -2068,7 +2068,7 @@ var Footer = () => {
                             <a href="terms.html" target={"_self"}>Terms of service</a>
                         </p>
                         <p>
-                            <a href="faq.html" target={"_self"}>Faq</a>
+                            <a href="https://reost.herokuapp.com/faq.html" target={"_self"}>Faq</a>
                         </p>
                     </td>
                 </tr>
