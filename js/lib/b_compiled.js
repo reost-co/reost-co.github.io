@@ -30,7 +30,7 @@ var loadHome = () => {
     head: "Welcome to Reost",
     slogun: "Access Of No Distance",
     content: "Build and manage systems effectively in a fully remote environment with us",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Get started"
   }; //Load navigation content
 
@@ -57,7 +57,7 @@ var loadAbout = () => {
     head: "About us",
     slogun: "This is who we are",
     content: "A remote based, modern technology, engineering company",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -84,7 +84,7 @@ var loadTerms = () => {
     head: "Terms of service",
     slogun: "",
     content: "These are our considerations while delivering service",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -111,7 +111,7 @@ var loadServices = () => {
     head: "Services",
     slogun: "Explore",
     content: "Find target oriented services, freely available",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -138,7 +138,7 @@ var loadContact = () => {
     head: "Contact",
     slogun: "",
     content: "Reachout, Let us talk about it.",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -165,7 +165,7 @@ var loadFaq = () => {
     head: "FAQ",
     slogun: "",
     content: "Frequently Asked Questions",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -204,7 +204,7 @@ var loadDashboard = () => {
     head: "Hey ",
     slogun: "welcome",
     content: "This is where it all happens",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Account"
   }; //Load navigation content
 
@@ -231,7 +231,7 @@ var loadSignin = () => {
     head: "Signin",
     slogun: "",
     content: "Log into your dashboard",
-    link: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    link: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     link_text: "Dashboard"
   }; //Load navigation content
 
@@ -274,7 +274,7 @@ var AboutContent = () => {
     height: "230",
     alt: "Silas"
   }), " ", /*#__PURE__*/React.createElement("p", null), "Senior Software Engineer ", "&", " Tech Lead"), /*#__PURE__*/React.createElement("p", null, "If you have further inquiries about us and our services, please reach out to us ", /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/contact.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/contact.html",
     target: "_self"
   }, "here"), "."));
 }; //Reading and adding about.jsxhas suceeded
@@ -916,7 +916,7 @@ var FaqContent = props => {
     question: item,
     key: index
   })), /*#__PURE__*/React.createElement("p", null, "If you have any other inquiries, please contact us ", /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/contact.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/contact.html",
     target: "_self"
   }, "here")));
 }; //Reading and adding faq.jsxhas suceeded
@@ -1077,7 +1077,7 @@ var InnerNav = () => {
     img_src: "images/home.svg",
     title: "Home"
   }))), /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/dashboard.svg",
@@ -1095,7 +1095,7 @@ var InnerNav = () => {
     img_src: "images/about.svg",
     title: "About"
   }))), /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/faq.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/faq.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/faq.svg",
@@ -1152,7 +1152,7 @@ var MobileMainMenu = () => {
     className: "navitem",
     width: "80%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/dashboard.svg",
@@ -1191,7 +1191,7 @@ var MobileMainMenu = () => {
     className: "navitem",
     width: "80%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/faq.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/faq.html",
     target: "_self"
   }, /*#__PURE__*/React.createElement(NavItem, {
     img_src: "images/faq.svg",
@@ -1727,7 +1727,7 @@ var PosterLR = props => {
   }, props.data.description)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     width: "100%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     target: "_self"
   }, "Start now!"))))))));
 };
@@ -1756,7 +1756,7 @@ var PosterRL = props => {
   }, props.data.description)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
     width: "100%"
   }, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     target: "_self"
   }, "Start now!")))), /*#__PURE__*/React.createElement("table", {
     border: "0",
@@ -1888,19 +1888,19 @@ var Footer = () => {
     href: "services.html",
     target: "_self"
   }, "Services")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/dashboard.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/dashboard.html",
     target: "_self"
   }, "Dashboard")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
     href: "about.html",
     target: "_self"
   }, "About Us")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/contact.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/contact.html",
     target: "_self"
   }, "Contact Us")), /*#__PURE__*/React.createElement("p", null), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
     href: "terms.html",
     target: "_self"
   }, "Terms of service")), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("a", {
-    href: "http://18.222.186.16:8080/Reost_Inc/faq.html",
+    href: "http://18.223.22.113:8080/Reost_Inc/faq.html",
     target: "_self"
   }, "Faq")))))), "\xA9 Reost, Inc ", new Date().getFullYear(), ". All rights reserved.", /*#__PURE__*/React.createElement("p", null), "-");
 };
