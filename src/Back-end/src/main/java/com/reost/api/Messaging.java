@@ -88,8 +88,8 @@ public class Messaging {
     public boolean sendTextEmail(String to, String subject, String message) {
         
         //Credentials
-        String from = "reost.co@gmail.com";
-        String password = "qniktrwbpazotoda";
+        String from = "";
+        String password = "";
         //host
         String host = "smtp.gmail.com";
         
@@ -150,8 +150,8 @@ public class Messaging {
         String msg = head+message+foot;
         
         //Credentials
-        String from = "reost.co@gmail.com";
-        String password = "qniktrwbpazotoda";
+        String from = "";
+        String password = "";
         //host
         String host = "smtp.gmail.com";
         
@@ -212,8 +212,8 @@ public class Messaging {
         String msg = head+message+foot;
         
         //Credentials
-        String from = "reost.co@gmail.com";
-        String password = "qniktrwbpazotoda";
+        String from = "";
+        String password = "";
         //host
         String host = "smtp.gmail.com";
         
